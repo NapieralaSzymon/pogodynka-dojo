@@ -1,3 +1,9 @@
 var dojoConfig = {
-	async: true
+	async: true,
+	packages: [
+		{
+			name: "wercia",
+			location: location.pathname.replace(/\/[^/]*$/, "") + "/js"
+		}
+	]
 };
