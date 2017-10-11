@@ -1,0 +1,21 @@
+{
+	"name": "Pogodynka",
+	"description": "",
+	"main": "",
+	"authors": [
+		"Szymon Napierała"
+	],
+	"license": "MIT",
+	"homepage": "",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"dojo/dojo": "1.13.0",
+		"dojo/dijit": "1.13.0"
+	}
+}

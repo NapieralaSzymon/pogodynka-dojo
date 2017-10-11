@@ -1,10 +1,10 @@
-define(["dojo/dom", "dojo/dom-construct"], function(dom, domConstruct) {
+define(["dojo/dom", "dojo/dom-construct", "wercia/widgets/weather/WeatherWidget",], function(dom, domConstruct, WeatherWidget) {
 
 	var AppView = {
 
 		render: function() {
 			var dojoRoot = dom.byId("dojo-root");
-			domConstruct.place("<h1>Pogodynka</h1>", dojoRoot);
+			new WeatherWidget().placeAt(dojoRoot);
 		}
 
 	};

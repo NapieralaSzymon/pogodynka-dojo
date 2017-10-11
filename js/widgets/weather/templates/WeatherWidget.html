@@ -1,0 +1,8 @@
+<div class="widget weather">
+	<h1>Pogoda</h1>
+	<input placeholder="Miasto" data-dojo-attach-point="searchNode"/>
+	<button data-dojo-attach-point="buttonNode">Sprawdź prognozę</button>
+	<p>Temperatura: <span data-dojo-attach-point="temperatureNode">${!weather.temperature}</span></p>
+	<p>Ciśnienie: <span data-dojo-attach-point="pressureNode">${weather.pressure}</span></p>
+	<p>Wilgotność: <span data-dojo-attach-point="humidityNode">${weather.humidity}</span></p>
+</div>
